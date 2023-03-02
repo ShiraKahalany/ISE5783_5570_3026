@@ -1,2 +1,5 @@
-package primitives;public class Vector {
+package primitives;
+
+public class Vector {
+
 }
