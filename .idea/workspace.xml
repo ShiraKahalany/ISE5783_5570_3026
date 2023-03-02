@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="deff7dfa-6765-497f-90f1-7ff4a92f094c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/geometries/Ray.java" afterDir="false" />
+    <list default="true" id="deff7dfa-6765-497f-90f1-7ff4a92f094c" name="Changes" comment="start stage 1">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/geometries/Ray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/geometries/Ray.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/primitives/Point.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/primitives/Point.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/primitives/Vector.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/primitives/Vector.java" afterDir="false" />
     </list>
@@ -51,6 +51,18 @@
       <option name="presentableId" value="Default" />
       <updated>1677588310214</updated>
     </task>
+    <task id="LOCAL‎-00001" summary="start stage 1">
+      <created>1677751657341</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL‎-00001" />
+      <option name="project" value="LOCAL‎" />
+      <updated>1677751657341</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="start stage 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="start stage 1" />
   </component>
 </project>

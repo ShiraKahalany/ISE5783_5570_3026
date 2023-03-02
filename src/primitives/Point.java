@@ -10,7 +10,8 @@ public class Point {
     public Point(double x, double y, double z) {
         xyz=new Double3(x,y,z);
     }
-    public Point (Double3 double3){
+
+    Point (Double3 double3){
         this(double3.d1, double3.d2, double3.d3);
     }
 
@@ -44,7 +45,7 @@ public class Point {
         return new Point(xyz.add(vector.xyz));
     }
 
-    public Vector subtract(Point point) {
-        return new Vector(point.xyz.subtract(xyz));
+    public Vector subtract(Point secondPoint) {
+        return new Vector(xyz.subtract(secondPoint.xyz));
     }
 }

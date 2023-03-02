@@ -5,8 +5,21 @@ import java.util.Objects;
 import primitives.Point;
 import primitives.Vector;
 public class Ray {
-    private Point p0;
-    private Vector dir;
+    private final Point p0;
+    private final Vector dir;
+
+    public Point getP0() {
+        return p0;
+    }
+
+    public Vector getDir() {
+        return dir;
+    }
+
+    public Ray(Point p0, Vector dir) {
+        this.p0 = p0;
+        this.dir = dir.normalize();
+    }
 
     @Override
     public boolean equals(Object o) {
